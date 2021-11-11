@@ -1,0 +1,1 @@
+{"version":3,"file":"Dog-d7912478.js","sources":["../../src/ts/Modules/Dog.ts"],"sourcesContent":["export default class Dog {\n    public bark() {\n        console.log(\"woof woof\")\n    }\n}\n"],"names":[],"mappings":";;;;;;gBAAA;iBAIC;gBAHU,kBAAI,GAAX;oBACI,OAAO,CAAC,GAAG,CAAC,WAAW,CAAC,CAAA;iBAC3B;gBACL,UAAC;YAAD,CAAC;;;;;;;;"}

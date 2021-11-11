@@ -1,0 +1,1 @@
+{"version":3,"file":"Foo-e1dc8f6a.js","sources":["../../src/ts/Modules/Foo.ts"],"sourcesContent":["export default class Foo {\n    constructor() {\n        console.log(\"this is foo\")\n    }\n}\n"],"names":[],"mappings":";;;;;;gBACI;oBACI,OAAO,CAAC,GAAG,CAAC,aAAa,CAAC,CAAA;iBAC7B;gBACL,UAAC;YAAD,CAAC;;;;;;;;"}
