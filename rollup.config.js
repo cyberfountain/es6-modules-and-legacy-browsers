@@ -22,13 +22,11 @@ export default [
             typescript({
                 tsconfig: "./tsconfig.json"
             }),
-            !isDev() && terser(
-                {
-                    format: {
-                        comments: false
-                    }
+            !isDev() && terser({
+                format: {
+                    comments: false
                 }
-            )
+            })
         ]
     },
     {
@@ -37,13 +35,11 @@ export default [
             dir: "public/lib"
         },
         plugins: [
-            terser(
-                {
-                    format: {
-                        comments: false
-                    }
+            terser({
+                format: {
+                    comments: false
                 }
-            )
+            })
         ]
     }
 ]
